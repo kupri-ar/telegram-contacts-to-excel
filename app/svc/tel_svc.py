@@ -48,7 +48,7 @@ def get_contacts(api_id, api_hash, phone_number, mode=''):
 
                 if photo.photos:
                     ph = photo.photos[0]
-                    img = pil_svc.resize_and_get_image(client, ph)
+                    img = pil_svc.download_and_resize_image(client, ph)
 
                 user_data_to_save = dict(
                     user_id=user.id,

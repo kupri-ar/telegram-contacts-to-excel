@@ -26,3 +26,5 @@ docker attach !container_id!
 
 rem Down the Docker Compose project in detached mode
 docker-compose down
+
+pause

@@ -3,7 +3,7 @@ from PIL import Image as PILImage
 from openpyxl.drawing.image import Image
 
 
-def resize_and_get_image(client, ph):
+def download_and_resize_image(client, ph):
     try:
         downloaded_ph = client.download_file(ph)
         file_in_memory = BytesIO(downloaded_ph)
