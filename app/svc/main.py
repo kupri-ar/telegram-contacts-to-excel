@@ -16,6 +16,8 @@ MODE = os.getenv('MODE')
 if __name__ == '__main__':
     input()
 
+    print("Just added this print to test pixee :D")
+
     print('\n\nHello! You can import contacts from your Telegram account into an Excel file. \n\n'
           'Check your credentials:\n'
           'API_ID: {}\nAPI_HASH: {}\nPHONE_NUMBER: {}\n'.format(API_ID, API_HASH, PHONE_NUMBER))
